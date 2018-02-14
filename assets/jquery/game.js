@@ -17,7 +17,7 @@ $(document).ready(function() {
 			  var Guess = false;
 			  for (var i=0; i< numbers.length; i++){
 				if (numbers[i] == randomnumber){
-					Guess = true; break
+					Guess = true;
 				}
 			  }
 			  if(!Guess)numbers[numbers.length]=randomnumber;

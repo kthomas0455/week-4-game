@@ -1,0 +1,78 @@
+body {
+	background-image: url("../images/ferrari.png");
+}
+
+#font { 
+   font-family: 'RacingSansOneRegular'; 
+   font-weight: normal; 
+   font-style: normal;
+}
+
+h1{
+	color: black;
+	font-size: 90px;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	margin-left: 330px;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#text1 {
+	color: black;
+	width: 30%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	margin-left: 450px;
+}
+
+#takeAGuess {
+	color: black;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 400px;
+}
+
+#YourScore {
+	color:black;
+	display: inline-block;
+	padding: 20px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 80px;
+}
+
+#carlogos {
+	margin-top: 15px;
+	margin-bottom:26px;
+	margin-left: 400px;
+}
+
+.carImage {
+	height: 75px;
+	margin-left: 10px
+}
+
+.carImage:firstchild {
+	margin-left: 0px;
+}
+
+#totalScore {
+	margin-bottom: 50px;
+	margin-left: 540px;
+	color: black;
+}
+
+#scorebox {
+	color: black;
+	display: inline;
+	padding: 20px;
+}
